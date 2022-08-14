@@ -1,0 +1,96 @@
+body  {background-color: #1d1d1d;
+  background-image: url("../ola.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-attachment: fixed;
+}
+
+.nombre { background-color: rgba(169, 169, 169, 0.616);
+    font-family: 'Montserrat', sans-serif;
+    display: flex; justify-content: center;
+    color: darkred; font: size 70px ;
+display: flex; justify-content: flex-start;}
+
+/* este es un comentario */
+
+.enlace {background-color: #1d1d1dd0;
+    color: darkred;
+    padding: 10px ; 
+    margin: 10px;
+    font-size: 20px;
+    display: flex; justify-content: flex-end;
+    flex-wrap: wrap;
+text-decoration: none;}
+
+.enlace:hover {
+    border: 5px rgb(71, 32, 32) solid 1px ;
+    box-shadow: 5px 5px 5px rgba(155, 11, 11, 0.712);
+ }
+ 
+.oliswis { background-color: #1d1d1d7c; padding: 12px; text-align: center; display: flex; 
+    justify-content: right ;margin: 2.5px;
+}
+
+
+
+.yopunto{
+    background-color: #1d1d1d;
+    color: darkred;
+    padding: 10px;
+    border: 2px solid white;
+    display: none;
+}
+
+
+.contenido {margin: 10px 10px;
+    padding: 2.5px;
+    background-color: #1d1d1d9a;
+width: auto;
+display: flex; flex-wrap: wrap;
+justify-content: space-around;
+
+}
+
+.columna:hover { 
+    border: 5px   rgb(155, 11, 11) solid 2.5px;
+    box-shadow: 10px 10px 5px rgba(155, 11, 11, 0.712);}
+
+
+
+.columna {background-color: #1d1d1d9a;
+padding: 17px;
+border: 2.5px  solid rgba(169, 169, 169, 0.616); 
+margin:0 auto;
+padding: 5px;
+width: 22%;
+border-radius: 10px;
+box-sizing: border-box;
+}
+
+.texto {font-size: 27px;
+    color: darkred;
+    background-color: #1d1d1dd0;
+    text-align: center;
+    text-decoration: none;}
+
+.imagen {width: 100px; height: 100px;
+;}
+
+p { color: cornsilk; font-size: 15px;
+    text-align: center;}
+
+ @media (max-width: 723px){
+        .columna{width: 45%; margin: 10px;}
+    }
+
+ @media (max-width: 600px){
+        .columna{width: 100%; margin: 10px;}
+ }
+        
+@media (max-width: 723px){
+    .oliswis{flex-direction: column; }
+    .enlace {margin: 11px;}
+    .yopunto {display: inline-block;}
+    .notoy {display: none;}
+    }
